@@ -10,23 +10,37 @@
         <link rel="shortcut icon" href="">
         <link rel="stylesheet" href="./CSS/style.css">
         <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     </head>
     
     <body>
         <header>
-            <nav class="col-12 col-lg-12 col-dm-12 col-sm-12">
-                <div id="img-nav">
-                </div>
-            </nav>
+            <nav class="col-12 col-lg-12 col-dm-12 col-sm-12"></nav>
         </header>
         <main>
             <section id="home">
                 <div id="home-content">
-                    <h1>Hola, sóc Gerard</h1>
-                    <p>Desenvolupador web i dissenyador gràfic</p>
+                    <h1>Hola, sóc en Gerard</h1>
+                    <ul class="tecnologies">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>NodeJS</li>
+                        <li>MySQL</li>
+                        <li>C</li>
+                    </ul>
                 </div>
             </section>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about">SOBRE MI</a></li>
+                    <li><a href="#projects">PROJECTES</a></li>
+                    <li><a href="#contact">CONTACTE</a></li>
+                </ul>
+            </nav>
+
             <section id="about">
                 <div id="about-content">
                     <h2>Sobre mi</h2>
@@ -36,27 +50,59 @@
             <section id="projects">
                 <div id="projects-content">
                     <h2>Projectes</h2>
-                    <div class="project">
-                        <h3>Projecte 1</h3>
-                        <p>Descripció del projecte 1.</p>
-                    </div>
-                    <div class="project">
-                        <h3>Projecte 2</h3>
-                        <p>Descripció del projecte 2.</p>
-                    </div>
+                    <a href="https://github.com/Gerard87564/Click-Eat" target="_blank">
+                        <div class="project">
+                            <h3>🍽️ Web de Restaurante</h3>
+                            <p>
+                                Disseny i desenvolupament d'una pàgina web per a un restaurant fictici.
+                                Inclou menú interactiu, formulari de reserves i disseny responsive. (Codi disponible en GitHub)
+                            </p>
+                            <span>HTML · CSS · JavaScript  · PHP  · NodeJS</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Gerard87564/sistema-web" target="_blank">
+                        <div class="project">
+                            <h3>☁️ Sistema d'Emmagatzematge al Núvol</h3>
+                            <p>
+                                Aplicació inspirada en Google Drive amb gestió d'arxius i carpetes.
+                                Desenvolupada com a projecte acadèmic. (Codi disponible en GitHub)
+                            </p>
+                            <span>Python · Flask · JavaScript  · HTML  · CSS</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Gerard87564/cosmos-visual" target="_blank">
+                        <div class="project">
+                            <h3>💻 Sistema Operatiu amb Cosmos</h3>
+                            <p>
+                                Desenvolupament d'un sistema operatiu experimental utilitzant Cosmos
+                                i C#. Implementació de funcions bàsiques del sistema.
+                            </p>
+                            <span>C# · Cosmos</span>
+                        </div>
+                    </a>
                 </div>
             </section>
             <section id="contact">
                 <div id="contact-content">
                     <h2>Contacta'm</h2>
-                    <form id="contact-form">
-                        <input type="text" name="name" placeholder="Nom" required>
-                        <input type="email" name="email" placeholder="Correu electrònic" required>
-                        <textarea name="message" placeholder="Missatge" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Gerard87564" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/gerard-gonzález-pujolas-a434592ab/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="mailto:ggonzalezpujolas@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-            </section>
+        </section>
         </main>
         <footer>
             <div id="footer-content">
